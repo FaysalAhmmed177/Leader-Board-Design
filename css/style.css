@@ -11,6 +11,7 @@ main{
     margin: 0 auto;
 }
 section{
+    
     background-color: whitesmoke;
     padding: 1em;
     margin: 1em;
@@ -18,12 +19,12 @@ section{
 }
 .section-title{
     color: tomato;
+    margin-bottom: 20px;
 }
 .top-players, .blogs ,.courses{
     display: grid;
     grid-gap: 30px;
     margin-top: 20px;
-    place-items: center;
 }
 .top-players, .courses{
     grid-template-columns: repeat(3,1fr);
